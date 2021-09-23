@@ -31,12 +31,12 @@ github_username:  jekyll
 
 # Build settings
 #theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
   
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,4 +58,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-theme: jekyll-theme-merlot
+#theme: jekyll-theme-merlot
